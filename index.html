@@ -678,6 +678,76 @@
 
         <ul class="project-list">
 
+          <!-- MEEN 210: PIRATE SHIP AND WAVES -->
+          <li class="project-item active"
+              data-filter-item
+              data-category="mechanical projects"
+              data-project-title="MEEN 210 | Pirate Ship and Waves"
+              data-project-description="In MEEN 210, Team 9 built and tested a 2D laser-cut plywood prototype of a hand-cranked pirate ship display. We then redesigned it as a compact 3D assembly, keeping the four-bar linkage that rocks the ship and using two cams to raise and lower separate wave panels. I compared four linkage geometries in SOLIDWORKS and modeled the crank face, handle, shaft, both cams, and crank support."
+              data-project-tech="SOLIDWORKS, Motion Analysis, Four-Bar Linkages, Cam Design, Laser Cutting"
+              data-project-gallery='[
+                {
+                  "src":"./assets/images/meen-210-prototype.png",
+                  "label":"2D Laser-Cut Plywood Prototype",
+                  "caption":"Team 9 built and tested this early prototype. The ship and wave panel moved as intended, and the test revealed limited crank leverage and occasional rubbing."
+                },
+                {
+                  "src":"./assets/images/meen-210-assembly.png",
+                  "label":"3D SOLIDWORKS Assembly",
+                  "caption":"The redesign places a 3D ship and two moving wave panels above a compact box with a hand crank and storm backdrop."
+                },
+                {
+                  "src":"./assets/images/meen-210-cam-mechanism.png",
+                  "label":"Dual Cams and Four-Bar Linkage",
+                  "caption":"The enclosure walls and wave panels are hidden to show the two cams in orange and blue. Each cam drives one wave panel, and the four-bar linkage rocks the ship."
+                }
+              ]'>
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/meen-210-assembly.png"
+                     alt="SOLIDWORKS assembly of the hand-cranked pirate ship and waves display"
+                     loading="lazy">
+              </figure>
+              <h3 class="project-title">MEEN 210 | Pirate Ship and Waves</h3>
+              <p class="project-category">Mechanical Projects</p>
+            </a>
+          </li>
+
+          <!-- AI FORGELOOP -->
+          <li class="project-item active"
+              data-filter-item
+              data-category="programming"
+              data-project-title="AI ForgeLoop | CAD and Simulation Workstation"
+              data-project-description="I built ForgeLoop, a local workstation for AI-assisted CAD and simulation. It imports STEP models, previews parametric edits, and runs finite-element analysis and 3D topology optimization. I benchmarked AI-generated CAD proposals against seeded random search and differential evolution in a bracket study. In a separate inspection-arm study, I used topology results to reconstruct a STEP model that was 2.16% lighter and met the modeled limits under two load cases across three mesh densities."
+              data-project-tech="React, Three.js, FastAPI, Open CASCADE, Gmsh, scikit-fem"
+              data-project-gallery='[
+                {
+                  "src":"./assets/images/forgeloop-topology.png",
+                  "label":"3D Topology Optimization",
+                  "caption":"The density field shows how the solver distributed material in the inspection arm while preserving specified regions."
+                },
+                {
+                  "src":"./assets/images/forgeloop-comparison.png",
+                  "label":"Baseline and Reconstructed STEP Model",
+                  "caption":"The reconstructed model weighed 69.095 g versus a 70.62 g baseline. Both models met the study limits in simulation."
+                }
+              ]'>
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/forgeloop-topology.png"
+                     alt="ForgeLoop displaying the 3D topology density field for an inspection arm"
+                     loading="lazy">
+              </figure>
+              <h3 class="project-title">AI ForgeLoop | CAD and Simulation Workstation</h3>
+              <p class="project-category">Programming</p>
+            </a>
+          </li>
 
 
           <!-- VOLKSWAGEN ENGINE -->
